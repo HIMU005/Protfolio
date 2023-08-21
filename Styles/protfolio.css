@@ -50,8 +50,8 @@ nav a {
 /* header related class */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
-    background-position: bottom right;
+    background-image: url('../images/header_bg.png'), url("../images/developer.png");
+    background-position: bottom right, top left;
     background-repeat: no-repeat;
 }
 
@@ -214,4 +214,32 @@ main section {
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer styl */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"],.contact input[type="email"] textarea{
+    display: block;
+    margin-bottom: 25x;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+    width: 100%;
+}
+.social-link img{
+    margin-right: 25px;
+}
+.contact{
+    margin-bottom: 20px;
 }
